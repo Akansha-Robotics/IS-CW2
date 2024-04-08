@@ -48,7 +48,7 @@ def capture_image():
             # Break the loop and exits 
             break
 
-    # As the while loop is ended, release then webcam 
+    # As the while loop is ends, release the webcam
     cap.release()
     # and close all the windows 
     cv.destroyAllWindows()
